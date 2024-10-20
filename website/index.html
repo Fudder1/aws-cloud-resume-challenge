@@ -1,5 +1,9 @@
 <!DOCTYPE HTML>
-
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Kevin Budzisch Resume</title>
@@ -15,7 +19,7 @@
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Kevin Budzisch</a></h1>
 					<p>I am an engineer that loves to work on<br />
-						projects utilizing cloud technology</p>
+						projects featuring cloud technology</p>
 					<br>
 					<div class="counter-number nav-item nav-link text-white-50 font-sans-serif font-size-16
 					active">Couldn't read views</div>
@@ -28,7 +32,7 @@
 						<li><a href="#three">Work Experience</a></li>
 						<li><a href="#four">Skills</a></li>
 						<li><a href="#five">Personal Projects</a></li>
-						<li><a href="#six">Contact Me</a></li>
+<!--						<li><a href="#six">Contact Me</a></li>	-->
 					</ul>
 				</nav>
 
@@ -53,7 +57,7 @@
 											<a href="https://github.com/Fudder1">Github</a>  |  Pinellas Park, FL.
 										</p>
 									</header>
-									<p>I am a mechanical engineer with a strong foundation in problem-solving and analytical skills. I am currently working to transition into Cloud/DevOps Engineering. Actively pursuing hands-on experience with cloud technologies, containerization and automation tools, while leveraging a solid understanding of engineering principles to optimize system performance and scalability. Passionate about continuous learning and applying innovative solutions in a cloud environment.</p>
+									<p>I am a Dynamic mechanical engineer with a strong foundation in problem-solving and analytical skills. I am currently working to transition into Cloud/DevOps engineering. Actively pursuing hands-on experience with cloud technologies, containerization, and automation tools, while leveraging a solid understanding of engineering principles to optimize system performance and scalability. Passionate about continuous learning and applying innovative solutions in a cloud environment.</p>
 								</div>
 							</section>
 
@@ -61,9 +65,13 @@
 							<section id="two">
 								<div class="container">
 									<h2>Education</h2>
-									<p>
-										<strong>Florida State University</strong> - 2022 - Bachelor of Science in Mechanical Engineering
-									</p>
+									<ul>
+										<li><strong>Florida State University</strong>  -  B.S. Mechanical Engineering  -  2022</li>
+										<li>Harvard CS50x Introduction to Computer Science Certification  -  2024</li>
+										<li>IBM DevOps and Software Engineering Professional Certificate  -  <strong>In Progress</strong></li>
+									</ul>
+		
+										
 								</div>
 							</section>
 
@@ -116,13 +124,17 @@
 							<div class="container">
 								<h2>Personal Projects</h2>
 							<div>
-								<h3>Personal Resume/Portfolio Website Project</h3>
+								<h3>Cloud Resume Challenge</h3>
 								<ul>
-									<li>Created a Resume/Portfolio website to showcase professional achievements, projects, work history, and skills.</li>
-									<li>The webpage is designed in HTML and styled with CSS for a modern, stylish look. </li>
-									<li>The website is hosted using AWS S3 for retrievable storage and AWS Route 53 to manage DNS. </li>
+									<li>Created a personal website using AWS cloud technology to showcase my professional life and achievements.</li>
+									<li>Designed in HTML and styled with CSS. </li>
+									<li>Deployed using AWS Cloudfront for HTTPS and AWS S3 for retrievable storage. </li>
+									<li>Uses AWS Route 53 to allow for a custom DNS domain name, which was set up using AWS Certificate Manager.</li>
+									<li>Uses Javascript to call an AWS Lambda function, written in Python, which calls and updates an AWS DynamoDB database, to display a visitor counter on the site.</li>
+									<li>Uses YAML and Github Actions for continuous integration and continuous delivery (CI/CD), to automatically deploy changes to the S3 bucket.</li>
+									<li>Implemented Infrastructure as Code (IAC) using terraform to deploy the AWS Lambda function</li>
 								</ul>
-								<p><strong>Technologies:</strong> AWS S3, AWS Route 53, HTML, CSS, Networking</p>
+								<p><strong>Technologies:</strong> AWS S3, Cloudfront, Route 53, Lambda DynamoDB, Github Actions, Terraform</p>
 								<p>Link to portfolio: <a href="kevbud.com">kevbud.com</a></p>
 							</div>
 
@@ -156,7 +168,7 @@
 						</section>
 
 							<!-- six -->
-							<section id="six">
+<!--						<section id="six">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
@@ -175,7 +187,7 @@
 										</div>
 									</form>
 								</div>
-							</section>
+							</section>	-->
 
 						<!-- Five -->
 						<!--
